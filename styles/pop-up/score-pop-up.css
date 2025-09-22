@@ -1,0 +1,40 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.6);
+    }
+}
+
+/* Classe que aplica a animação */
+.result-card {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+.result-card.fade-out {
+    animation: fadeOut 0.3s ease-in forwards;
+}
+
+
+
