@@ -1,3 +1,3 @@
 # RockPaperScissors
 Rock Paper Scissors game.
-Play the game: https://gustagols.github.io/RockPaperScissors/
+\nPlay the game: https://gustagols.github.io/RockPaperScissors/
