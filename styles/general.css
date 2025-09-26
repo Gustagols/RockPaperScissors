@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: rgba(0, 0, 0, 0.975);
     padding-top: 14px;
@@ -15,3 +16,22 @@ button:hover {
 button:active {
     filter: brightness(1);
 }
+=======
+body {
+    background-color: rgba(0, 0, 0, 0.975);
+    padding-top: 14px;
+    overflow: hidden;
+}
+
+button {
+    transition: filter 0.15s ease;
+}
+
+button:hover {
+    filter: brightness(0.9);    
+}
+
+button:active {
+    filter: brightness(1);
+}
+>>>>>>> ce214bb86034bb54883c37aa4436ad44b87ee789
